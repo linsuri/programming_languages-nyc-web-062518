@@ -13,3 +13,5 @@ def reformat_languages(languages)
   end  
   hash
 end
+
+reformat_languages(languages)
