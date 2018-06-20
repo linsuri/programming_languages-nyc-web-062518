@@ -41,7 +41,8 @@ def reformat_languages(languages)
         if hash[language].nil?
           hash[language] = {}
         end
-      hash[language][attribute_hash]  
+      hash[language][type] = attribute
+      hash[language][:style] = 
       
       
       style_array = []
