@@ -39,8 +39,8 @@ def reformat_languages(languages)
     language_hash.each do |language, attribute_hash|
       attribute_hash.each do |type, attribute|
         if hash[language].nil?
-          
-      hash[language] = {}
+          hash[language] = {}
+        end  
       
       
       style_array = []
