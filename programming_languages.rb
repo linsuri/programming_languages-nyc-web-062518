@@ -42,7 +42,7 @@ def reformat_languages(languages)
           hash[language] = {}
         end
       hash[language][type] = attribute
-      hash[language][:style] = []
+      hash[language][:style] ||= []
       hash[language][:style] << o_f
       end
     end
