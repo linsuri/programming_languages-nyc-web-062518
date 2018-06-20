@@ -38,7 +38,8 @@ def reformat_languages(languages)
   languages.each do |o_f, language_hash|
     language_hash.each do |language, attribute_hash|
       attribute_hash.each do |type, attribute|
-        if hash[language]
+        if hash[language].nil?
+          
       hash[language] = {}
       
       
