@@ -1,4 +1,4 @@
-require pry
+require 'pry'
 
 def reformat_languages(languages)
   # your code here
@@ -8,6 +8,7 @@ def reformat_languages(languages)
       style_array = []
       style_array << o_f
       hash[language] = {type => x, :style => style_array}
+      binding.pry
     end
   end  
   hash
