@@ -44,7 +44,8 @@ def reformat_languages(languages)
       hash[language][type] = attribute
       if hash[language][:style].nil?
         hash[language][:style] = []
-      else 
+        hash[language][:style] << o_f
+      else
         hash[language][:style] << o_f
       end  
       end
