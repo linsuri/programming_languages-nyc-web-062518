@@ -39,7 +39,7 @@ def reformat_languages(languages)
     language.each do |type, x|
       style_array = []
       style_array << o_f
-      hash[language] = {type => x}, :style => style_array}
+      hash[language] = {type => x}, style: style_array}
       binding.pry
     end
   end  
